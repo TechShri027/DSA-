@@ -205,10 +205,28 @@
 
 // ==============================================================================================================
 
-// sum of digits
-// let num=123
-// let sum=0;
-// for(let i=0; i<num; i++){
-//   sum+=num[i]
+//  sum of digits
+//  let num=123
+//  let sum=0;
+//  while(num>0){
+//   sum+=num%10
+// num=Math.floor(num/10)
+ 
 // }
-// console.log(sum)
+//  console.log(sum)
+
+// ==============================================================================================================
+// palindrom check 121
+
+// let num=1121;
+// let c=num;
+// let digit=0;
+// while(num>0){
+//         let rem=num%10;
+//  digit=(digit*10)+rem;
+//  num=Math.floor(num/10);
+// }
+// let res=(c==digit)? "its palindrome":"no its not palindrome";
+// console.log(res)
+
+// ==============================================================================================================
